@@ -55,7 +55,7 @@ gcc -std=c99 -Wall functions.c main.c -o ipEssentials
    ```
 
 3. **Classifying the IP Address**  
-   The program will determine and display the IP class.
+   The program will determine and display the IP class. Note that it uses the second octet to classify rather than the first.
 
    ```plaintext
    Class for 192.168.1.10 = C
